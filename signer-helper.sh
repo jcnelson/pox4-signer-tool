@@ -8,7 +8,7 @@ function exit_error() {
    exit 1
 }
 
-for cmd in clarity-cli node; do
+for cmd in clarity-cli node jq sed; do
    command -v "$cmd" >/dev/null || exit_error "Command not found: $cmd"
 done
 
