@@ -25,6 +25,10 @@ clarity-cli
 
 Make sure `clarity-cli` is in your `$PATH`.
 
+Finally, you will need `jq` and `sed`.  These can be obtained from your package
+manager.  It is overwhelmingly likely that `sed` is already installed, but you
+may need to install `jq` manually.
+
 ## 1. Generate a signer secret key
 
 Put this secret key into the file `signer.privkey`.  For example:
